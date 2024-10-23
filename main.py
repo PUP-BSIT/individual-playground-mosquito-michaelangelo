@@ -15,7 +15,7 @@ while yes_or_no.lower() == "y":
     all_items.append(enter_product_details())
     
     yes_or_no = input("Would you like to add another order? y - YES / n - NO: ")
-
+w
 # Buyer details
 buyer_name = input("\nWhat is your name: ")
 senior_id_no = input("Senior ID no. (leave blank if not a senior): ")
