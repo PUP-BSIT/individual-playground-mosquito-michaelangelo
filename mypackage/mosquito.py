@@ -7,8 +7,8 @@ def date_function():
     next_day = D.tomorrow()
     last_day = D.yesterday()
 
-    print(date_now)
+    print("This is the date today:",date_now)
 
-    print(next_day)
+    print("This is the date tomorrow:",next_day)
 
-    print(last_day)
+    print("This is the date yesterday:", last_day)
