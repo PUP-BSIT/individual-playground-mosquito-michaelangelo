@@ -1,3 +1,3 @@
-from mypackage.mosquito import date_now
+from mypackage.mosquito import date_function
 
-date_now()
+date_function()

@@ -1,9 +1,14 @@
 from datetime import date, datetime
+from dateutil.relativedelta import relativedelta
+from beautiful_date import D
 
-def date_now():
-    date_today = date.today()
-    date_time_now = datetime.now()
+def date_function():
+    date_now = date.today()
+    next_day = D.tomorrow()
+    last_day = D.yesterday()
 
-    print(date_today)
-    
-    print(date_time_now)
+    print(date_now)
+
+    print(next_day)
+
+    print(last_day)
