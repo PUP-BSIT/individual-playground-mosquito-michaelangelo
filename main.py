@@ -1,4 +1,5 @@
 from mypackage.mosquito import date_function
+from mypackage.greet import emoji_greet
 
-date_function()
+emoji_greet()
 
